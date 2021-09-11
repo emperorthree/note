@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-11T05:05:05.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="45epBL_e4uHBaHA6S9Gl" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-11T05:06:49.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="kanD8cQ8Y0m7dK4Y8pBg" version="14.9.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1678" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="ibbkaZqgxfsACqarjdkI-26" value="节点数：3；索引配置：3个主分片，1个副本分片；" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="50" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ibbkaZqgxfsACqarjdkI-28" value="3个节点正常运行&lt;br&gt;此时集群状态为：green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ibbkaZqgxfsACqarjdkI-28" value="3个节点正常运行&lt;br&gt;此时集群状态为：green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1020" y="110" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ibbkaZqgxfsACqarjdkI-67" value="自修复" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ibbkaZqgxfsACqarjdkI-29" target="ibbkaZqgxfsACqarjdkI-50">
@@ -125,8 +125,8 @@
         <mxCell id="ibbkaZqgxfsACqarjdkI-47" value="其中一个节点挂了 假设是node3节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="300" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ibbkaZqgxfsACqarjdkI-49" value="其中node3上的主分片没有正常运行了，&lt;br&gt;集群中有没正常运行的主分片&lt;br&gt;此时集群状态为：red" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1020" y="340" width="230" height="50" as="geometry" />
+        <mxCell id="ibbkaZqgxfsACqarjdkI-49" value="其中node3上的主分片没有正常运行了，&lt;br&gt;集群中有没正常运行的主分片&lt;br&gt;此时集群状态为：red" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="330" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ibbkaZqgxfsACqarjdkI-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ibbkaZqgxfsACqarjdkI-50" target="ibbkaZqgxfsACqarjdkI-69">
           <mxGeometry relative="1" as="geometry" />
@@ -187,8 +187,8 @@
         <mxCell id="ibbkaZqgxfsACqarjdkI-90" value="p3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ibbkaZqgxfsACqarjdkI-50">
           <mxGeometry x="510" y="70" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibbkaZqgxfsACqarjdkI-68" value="node2中P3的备份分片会自动升级成主分片，&lt;br&gt;此时集群缺少了备份分片，但所有主分片运行正常，&lt;br&gt;集群状态为：yellow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="550" width="290" height="50" as="geometry" />
+        <mxCell id="ibbkaZqgxfsACqarjdkI-68" value="node2中P3的备份分片会自动升级成主分片，&lt;br&gt;此时集群缺少了备份分片，但所有主分片运行正常，&lt;br&gt;集群状态为：yellow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="550" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ibbkaZqgxfsACqarjdkI-69" value="集群A" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="770" width="930" height="180" as="geometry">
@@ -249,8 +249,11 @@
         <mxCell id="ibbkaZqgxfsACqarjdkI-89" value="r3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="ibbkaZqgxfsACqarjdkI-69">
           <mxGeometry x="620" y="70" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibbkaZqgxfsACqarjdkI-88" value="node3恢复，会去主分片同步增量数据&lt;br&gt;集群状态回到：green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="770" width="220" height="30" as="geometry" />
+        <mxCell id="ibbkaZqgxfsACqarjdkI-88" value="node3恢复，会去主分片同步增量数据&lt;br&gt;集群状态回到：green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="770" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ibbkaZqgxfsACqarjdkI-91" value="TODO：主节点的选举" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="30" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
